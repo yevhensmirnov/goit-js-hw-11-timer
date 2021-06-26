@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #1ecf53;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.timer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+.field {
+  margin-right: 40px;
+}
+
+.value {
+  letter-spacing: 0.05em;
+  font-size: 100px;
+  padding: 5px 0;
+}
+
+.label {
+  display: block;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  padding: 40px 0 0;
+}
